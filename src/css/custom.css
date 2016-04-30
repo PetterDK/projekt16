@@ -1,11 +1,48 @@
+body {
+    font-family: 'Work Sans', 'Helvetica Neue Light', sans-serif;
+    background-color: #eeeeee;
+}
+
+.jumbotron {
+    background-color: #544E61;
+    color: floralwhite;
+}
+
 .jumbotron.header {
     margin: 50px 0;
 }
 
 .jumbotron.header h1 {
-    font-weight: 100;
+    font-weight: 200;
 }
 
-.info p {
+#info i {
+    color: #869D96;
+}
+
+#info p {
     padding: 16px 30px;
+}
+
+#contact {
+    padding: 48px 0;
+    margin: 24px 0;
+}
+
+#contact .btn.btn-lg {
+    background-color: #544E61;
+    padding: 16px 26px;
+    font-weight: 200;
+    color: floralwhite;
+}
+
+footer {
+    padding-top: 80px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+}
+
+footer small {
+    font-size: 60%;
 }
