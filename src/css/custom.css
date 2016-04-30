@@ -1,0 +1,11 @@
+.jumbotron.header {
+    margin: 50px 0;
+}
+
+.jumbotron.header h1 {
+    font-weight: 100;
+}
+
+.info p {
+    padding: 16px 30px;
+}
